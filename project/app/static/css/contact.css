@@ -1,0 +1,101 @@
+/* navigation sec --start */
+
+.nav1 .ancnav .image1{
+    width: 100%;
+}
+.firstrow .nav1{
+    background-color: white;
+}
+.firstrow .nav1 p{
+    font-size: 10px;
+    
+}
+.firstrow .heading1 span{
+    color: green;
+}
+.firstrow .nav1 .navigation{
+    color: black;
+}
+.firstrow .nav1 .navigation:hover{
+    background-color: rgb(15, 15, 167);
+    color: white;
+    font-weight: bold;
+}
+.firstrow .nav1 img{
+    width: 50%;
+    border-radius: 150px;
+}
+
+/* navigation sec --end */
+
+/* front sec --start */
+
+.frontrow{
+    padding-top: 6%;
+}
+.frontrow .column1{
+    padding-top: 10%;
+    padding-left: 3%;
+    background-color: aliceblue;
+}
+.frontrow .column1 h2{
+    font-family: 'Oswald', sans-serif !important;
+    font-weight: 300;
+    font-size: 56px;
+}
+.frontrow .column1 p{
+    font-size: large;
+    padding-top: 2%;
+}
+.frontrow .column2 img{
+    width: 100%;
+}
+
+/* front sec --end */
+
+/* address sec --start */
+
+
+
+ /* address sec --end */
+
+ /* message sec --start */
+
+.messsec{
+    background-color: aliceblue;
+}
+.message .column1 img{
+    width: 100%;
+}
+
+ /* message sec --end */
+
+/* map sec --start */
+
+.mapsec .mapping iframe{
+    width: 100%;
+}
+
+/* map sec --end */
+
+/* footer sec --start */
+
+.footersec{
+    background-color: aliceblue;
+    width: 100%;
+}
+.footersec .firstcont{
+    background-color: #85ba32;
+    
+}
+.footersec .column2 button{
+    background-color: black;
+    color: white;
+    padding: 4% 6% 4% 6%;
+}
+.footerlinks .footrow{
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+/* footer sec --end */

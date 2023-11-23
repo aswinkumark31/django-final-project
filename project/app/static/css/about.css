@@ -1,0 +1,134 @@
+/* navigation sec --start */
+
+.nav1 .ancnav .image1{
+    width: 100%;
+}
+.firstrow .nav1{
+    background-color: white;
+}
+.firstrow .nav1 p{
+    font-size: 10px;
+    
+}
+.firstrow .heading1 span{
+    color: green;
+}
+.firstrow .nav1 .navigation{
+    color: black;
+}
+.firstrow .nav1 .navigation:hover{
+    background-color: rgb(15, 15, 167);
+    color: white;
+    font-weight: bold;
+}
+.firstrow .nav1 img{
+    width: 50%;
+    border-radius: 150px;
+}
+
+/* navigation sec --end */
+
+/* front sec --start */
+
+.frontrow{
+    padding-top: 6%;
+}
+.frontrow .column1{
+    padding-top: 10%;
+    padding-left: 3%;
+    background-color: aliceblue;
+}
+.frontrow .column1 h2{
+    font-family: 'Oswald', sans-serif !important;
+    font-weight: 300;
+    font-size: 56px;
+}
+.frontrow .column1 p{
+    font-size: large;
+    padding-top: 2%;
+}
+.frontrow .column2 img{
+    width: 100%;
+}
+
+/* front sec --end */
+
+/* description sec --start */
+
+.desprow{
+    margin-top: 8%;
+    margin-bottom: 1%;
+}
+.desprow .column1 img{
+    width: 100%;
+    height: 80%;
+    /* position: relative; */
+}
+.desprow .column2{
+    padding-left: 3%;
+}
+.desprow .column2 h6{
+    font-weight: bold;
+    color: rgb(21, 21, 166);
+    font-size: medium;
+}
+.desprow .column2 h1{
+    font-weight: lighter;
+    font-size: 40px;
+}
+.desprow .column2 p{
+    margin-top: 5%;
+    line-height: 32px;
+    font-size: 16px;
+    color: var(--textcolor);
+    text-align: justify;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.despbottum{
+    margin-bottom: 8%;
+}
+.despbottum img{
+    width: 25%;
+    margin-top: 10%;
+    
+}
+.despbottum img:hover{
+    background-color: yellowgreen;
+}
+.despbottum h6{
+    margin-top: 7%;
+    margin-bottom: 10%;
+    text-align: center;
+}
+.despbottum .column1{
+    border-style: inset;
+    border-right: none;
+    border-color: rgb(119, 117, 117);
+    border-width: thin;
+    text-align: center;
+}
+
+/* description sec --end */
+
+/* footer sec --start */
+
+.footersec{
+    background-color: aliceblue;
+    width: 100%;
+}
+.footersec .firstcont{
+    background-color: #85ba32;
+    
+}
+.footersec .column2 button{
+    background-color: black;
+    color: white;
+    padding: 4% 6% 4% 6%;
+}
+.footerlinks .footrow{
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+/* footer sec --end */
