@@ -6,3 +6,8 @@ class Products(models.Model):
     images=models.CharField(max_length=3000)
     price=models.IntegerField()
     checkup=models.CharField(max_length=50)
+
+# class Package(models.Model):
+#     images=models.CharField(max_length=3000)
+#     price=models.IntegerField()
+#     checkup=models.CharField(max_length=50)

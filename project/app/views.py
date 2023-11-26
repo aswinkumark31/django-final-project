@@ -12,7 +12,8 @@ def about(request):
     return render(request,'about.html')
 
 def package(request):
-    return render(request,'package.html')
+    pro=models.Products.objects.all()
+    return render(request,'package.html',{"pro":pro})
 
 def department(request):
     return render(request,'department.html')

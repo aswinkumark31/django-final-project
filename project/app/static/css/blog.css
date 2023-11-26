@@ -37,7 +37,6 @@
     padding-top: 10%;
     padding-left: 3%;
     background-color: aliceblue;
-    /* max-width: 50%; */
 }
 .frontrow .column1 h2{
     font-family: 'Oswald', sans-serif !important;
@@ -50,8 +49,6 @@
 }
 .frontrow .column2 img{
     width: 100%;
-    height: 50%;
-    object-fit: cover;
 }
 
 /* front sec --end */

@@ -85,7 +85,32 @@
 
  <!-- packages sec --start -->
 
+ <div class="container package">
+  <div class="row packrow mt-5 mb-5">
 
+ {% for i in pro %}
+
+
+ <div class="col-lg-4 column1 mt-5 mb-5">
+
+<a href="#">
+
+<div class="card">
+ <img style="width: 100%;" src="{{i.images}}" class="card-img-top" alt="...">
+ <div class="card-body">
+   <h5 style="color: black;" class="card-title"> {{i.checkup}}</h5>
+   <h5 style="color: black;">{{i.price}}</h5>
+ </div>
+</div>
+
+</a>
+</div>
+
+
+ {% endfor %}
+
+</div>
+</div>
 
  <!-- packages sec --end -->
 

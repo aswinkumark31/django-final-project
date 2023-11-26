@@ -331,24 +331,31 @@
   </div>
 
   <div class="row packimg mt-5">
+   
 
     {% for i in pro %}
 
-    {{i.images}}
-    {{i.price}}
-    {{i.checkup}}
 
-    {% comment %} <div class="col-lg-4 column1">
-      <img src="{% static 'images/image6.jpg' %}" alt="image6">
+    <div class="col-lg-4">
+
+  <a href="#">
+
+  <div class="card">
+    <img style="width: 100%;" src="{{i.images}}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 style="color: black;" class="card-title"> {{i.checkup}}</h5>
+      <h5 style="color: black;">{{i.price}}</h5>
     </div>
-    <div class="col-lg-4 column1">
-      <img src="{% static 'images/image6.jpg' %}" alt="image6">
-    </div>
-    <div class="col-lg-4 column1">
-      <img src="{% static 'images/image6.jpg' %}" alt="image6">
-    </div> {% endcomment %}
+  </div>
+
+</a>
+</div>
+
+
+
 
     {% endfor %}
+  
 
   </div>
 
