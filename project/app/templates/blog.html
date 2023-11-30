@@ -85,6 +85,34 @@
 
  <!-- blog sec --start -->
 
+ <div class="container">
+
+  <div class="row blogrow mt-5 mb-5">
+
+    {% for i in bio %}
+
+    <div class="col-lg-4 column1 mt-5 mb-5">
+
+      <a href="#">
+      
+      <div class="card">
+       
+       <img style="width: 100%;" src="{{i.images}}" class="card-img-top" alt="...">
+       <div class="card-body" style="background-color: rgb(234, 242, 248);">
+         <p style="color: black;" class="card-title"> {{i.description}}</p>
+         
+         
+       </div>
+      </div>
+      
+      </a>
+      </div>
+
+    {% endfor %}
+
+  </div>
+
+ </div>
 
 
  <!-- blog sec --end -->

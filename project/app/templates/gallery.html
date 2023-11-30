@@ -89,6 +89,21 @@
 
  <!-- gallery sec --end -->
 
+ <div class="container">
+
+  <div class="row mt-5 mb-5">
+
+    {% for i in img %}
+
+    <div class="col-lg-3 mt-3 mb-3">
+      <img style="width: 100%;" src="{{i.images}}" alt="galimg">
+    </div>
+
+    {% endfor %}
+
+  </div>
+
+ </div>
 
  <!-- footer sec --start -->
 

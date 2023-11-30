@@ -55,7 +55,12 @@
 
 /* blog sec --start */
 
-
+.blogrow .column1 img{
+    width: 100%;
+}
+.blogrow .column1 p{
+    font-weight: normal;
+}
 
 /* blog sec --end */
 

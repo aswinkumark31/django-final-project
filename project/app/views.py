@@ -19,10 +19,12 @@ def department(request):
     return render(request,'department.html')
 
 def blog(request):
-    return render(request,'blog.html')
+    bio=models.Gene.objects.all()
+    return render(request,'blog.html',{"bio":bio})
 
 def gallery(request):
-    return render(request,'gallery.html')
+    img=models.Gallery.objects.all()
+    return render(request,'gallery.html',{"img":img})
 
 def contact(request):
     return render(request,'contact.html')

@@ -7,7 +7,10 @@ class Products(models.Model):
     price=models.IntegerField()
     checkup=models.CharField(max_length=50)
 
-# class Package(models.Model):
-#     images=models.CharField(max_length=3000)
-#     price=models.IntegerField()
-#     checkup=models.CharField(max_length=50)
+class Gene(models.Model):
+    images=models.CharField(max_length=3000)
+    description=models.CharField(max_length=300)
+
+class Gallery(models.Model):
+    images=models.CharField(max_length=3000)
+    
