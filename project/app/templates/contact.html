@@ -92,40 +92,44 @@
   <div class="row callingrow mt-5 mb-5">
 
 
-    <div class="col-lg-3">   
+    <div class="column1 col-lg-3">   
       <div class="card" style="width: 18rem;">
-        <div class="card-body">
+        <div class="card-body text-center">
           <img src="{% static 'images/con1.png' %}" alt="icons6">
-          <h4>Phone</h4>
-          <p>+91 81388 62626</p>
-          <p>0484 0000 0000</p>    
+          <h4 class="mt-4">Phone</h4>
+          <p>+91 81388 62626<br>
+          0484 0000 0000</p>    
         </div>
       </div>
     </div>
 
     <div class="col-lg-3">   
       <div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <h4>Email</h4>
-          <p>info@gmrllabs.com</p>    
+        <div class="card-body text-center">
+          <img src="{% static 'images/download.png' %}" alt="icons7">
+          <h4 class="mt-4">Email</h4>
+          <p class="mt-4 mb-4">info@gmrllabs.com</p>    
         </div>
       </div>
     </div>
 
     <div class="col-lg-3">   
       <div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <h4>Address</h4>
-          <p>GMRL Laboratories Chambakkara, Ernakulam,<br> Ernakulam - 682011</p>    
+        <div class="card-body text-center">
+          <img src="{% static 'images/adress.png' %}" alt="icons7">
+          <h4 class="mt-4">Address</h4>
+          <p>GMRL Laboratories Chambakkara,<br> Ernakulam - 682011</p>    
         </div>
       </div>
     </div>
 
     <div class="col-lg-3">   
       <div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <h4>Opening Hours</h4>
-          <p>Mon - Sun : 5:00AM to 10:00PM</p>   
+        <div class="card-body text-center">
+          <img src="{% static 'images/time.png' %}" alt="icons7">
+          <h4 class="mt-4">Opening Hours</h4>
+          <p>Mon - Sun<br>
+          Time : 5:00AM to 10:00PM</p>   
         </div>
       </div>
     </div>
@@ -149,10 +153,39 @@
       <img src="{% static 'images/package4.jpg' %}" alt="imge34">
     </div>
 
-    <div class="col-lg-7 column2">
+    <div class="col-lg-7 column2 mt-5 mb-5">
       <h4>Send us a message</h4>
       <p>Connect with us and share your thoughts – your message matters to us.</p>
-    </div>
+    
+
+    <form>
+      <div class="row">
+        <div class="col-lg-5 mt-2 mb-2">
+          <input type="text" class="form-control" placeholder="Your Name">
+        </div>
+        <div class="col-lg-5 mt-2 mb-2">
+          <input type="text" class="form-control" placeholder="Email">
+        </div>
+
+        <div class="col-lg-5 mt-2 mb-2">
+          <input type="text" class="form-control" placeholder="Phone">
+        </div>
+        <div class="col-lg-5 mt-2 mb-2">
+          <input type="text" class="form-control" placeholder="Subject">
+        </div>
+
+        <div class="col-lg-10">
+          <input type="text" class="form-control mt-2 mb-2 pt-3 pb-5" placeholder="Message">
+        </div>
+
+        <div class="col-lg-5">
+        <button class="btn btn-primary" type="submit">Submit</button>
+      </div>
+
+      </div>
+    </form>
+
+  </div>
 
   </div>
 </div>

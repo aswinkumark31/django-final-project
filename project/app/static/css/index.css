@@ -238,6 +238,32 @@
     color: rgb(121, 113, 113);
 }
 
+@media (max-width:992px) and (min-width:768px){
+    .testcard .column1 .johnimg{
+        width: 20%;
+    }
+}
+@media (max-width:768px) and (min-width:700px){
+    .testcard .column1 .johnimg{
+        width: 20%;
+    }
+}
+@media (max-width:700px) and (min-width:615px){
+    .testcard .column1 .johnimg{
+        width: 20%;
+    }
+}
+@media (max-width:615px) and (min-width:550px){
+    .testcard .column1 .johnimg{
+        width: 20%;
+    }
+}
+@media (max-width:550px) and (min-width:450px){
+    .testcard .column1 .johnimg{
+        width: 20%;
+    }
+}
+
 /* testmonial sec --end */
 
 /*enquiry sec --start */
